@@ -417,7 +417,7 @@ if st.button("Estimate My Construction Cost", use_container_width=True, type="pr
 Give 4 specific, practical suggestions to reduce costs while maintaining quality.
 Write in simple language a non-expert builder can understand. Use bullet points. No jargon."""
 
-    api_key = st.secrets.get("GROQ_API_KEY", "")
+    api_key = st.secrets["GROQ_API_KEY"]
     if not api_key:
         st.warning("⚠️ Add GROQ_API_KEY to .streamlit/secrets.toml to enable AI suggestions.")
     else:
