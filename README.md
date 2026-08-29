@@ -6,7 +6,7 @@
 
 Construction Cost Estimator is a machine learning application that predicts **construction costs in PKR** based on project characteristics. The application combines an XGBoost regression model with explainable AI and an LLM-powered recommendation system to provide both cost estimates and actionable insights.
 
-🌐 ([https://construction-cost-estimator-ai.streamlit.app/]**
+🌐 **[https://construction-cost-estimator-ai.streamlit.app/]**
 
 ![Construction Cost Estimator](const-cost-estimator.png)
 
